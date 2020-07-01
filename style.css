@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(15, 15, 16, 0.7), rgba(243, 241, 242, 0.73)),
+    url(./images/group-of-people-eating-together-3184195.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+nav{
+    margin-right: 14%;
+}
+
+a{
+    border: 1px solid white;
+    margin-top: 40px;
+    font-family: "lulo";
+    font-weight: 500;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+li{
+    margin-right: 95px;
+}
+
+/* font famlys */
+    @font-face {
+        font-family: 'anton';
+        src: url('./asserts/fonts/anton.regular.ttf') format('truetype');
+         
+            }
+
+
+    @font-face{
+        font-family: "lulo";
+        src: url("./asserts/fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf") format('truetype');
+    }
+
+    @font-face{
+      font-family: "raleway medium";
+      src: url("./asserts/fonts/Raleway-Medium.ttf") format('truetype');
+    }
+
+    @font-face{
+      font-family: "raleway regular";
+      src: url("./asserts/fonts/Raleway-Regular.ttf") format('truetype');
+    }
+/* font famlys end */
+
+
+
+
+  /* section no 2 css start */
+
+  .s-tables{
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 45%;
+  }
+  .table{
+    border: 2px solid black;
+    text-align: center;
+    font-family: "raleway medium";
+    font-size: 40px;
+    color: #686464;
+    
+  }
+
+  .tablep{
+    margin-bottom: 0px;
+  }
+  .btn{
+    width: 235px;
+    height: 35px;
+    background-color: #a4a3a3;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-family: "lulo";
+    
+  }
+
+  .c1font{
+    font-family: "lulo";
+    font-size: 18px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+  }
+
+  /* section no 2 css end */
+
+
+
+  /* section no 3 css start */
+  .black-line{
+    width: 140px;
+    height: 5px;
+    color : black;
+    background-color: black;
+}
+
+  .shape{
+    font-family: "lulo";
+    font-size: 32px;
+    margin-left: 35%;
+  }
+
+  .story{
+    margin-left: 145px;
+  }
+
+  .story-section{
+    margin-top: 65px;
+    margin-bottom: 65px;
+  }
+
+  .sno3c1{
+    font-family: "lulo";
+    font-size: 31.25px;
+    margin-left: 90px;
+
+  }
+
+  .sno3c2{
+    font-family: "raleway regular" ;
+    font-size: 40px;
+  }
+/* section no 3 css end */
+
+
+/* sectiomn no 4 start */
+.img1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.img2{
+    width: 100%;
+}
+.our-moments3{
+    background-color: #abaaaa;
+
+    color: white;
+}
+
+.sno4c1{
+  font-family: "lulo";
+  font-size: 24px;
+}
+.sno4-black-line{
+  width: 260px;
+  height: 5px;
+  color : black;
+  background-color: black;
+}
+
+.sno4c2{
+  margin-top: 210px;
+  margin-left: 40px;
+}
+.sno4c3{
+  font-family: "lulo";
+  font-size: 24px;
+  margin-left: 40px;
+}
+.sno4-black-line2{
+  margin-left: 40px;
+  width: 218px;
+  height: 5px;
+  background-color: white;
+}
+
+/* section no 4 end */
+
+
+
+/* section no 5 css start */
+
+.sno5c1{
+  height: 525px;
+background-image: linear-gradient(to bottom, rgba(12, 12, 12, 0.81), rgba(14, 14, 14, 0.75)),
+ url(./images/section5-bg.png);
+ background-size: cover;
+ width: 100%;
+ background-repeat: no-repeat;
+}
+
+.sno5c2{
+  background-color: #000000c2;
+  border: 1px solid #b8b4b3;
+  width: 45%;
+  margin-top: 195px;
+  margin-left: 425px;
+  
+}
+.sno5c3{
+  width: 22%;
+  margin-left: 37%;
+}
+.sno5c4{
+  font-family: "lulo";
+  font-size: 16.75px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* section no 5 css end */
+
+
+/* section no 6 css start */
+
+.sno6c1{
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.sno6c2{
+  font-family: "lulo";
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sno6c3{
+  width: 100%;
+  font-family: "lulo";
+  font-size: 24px;
+  text-align: center;
+}
+
+.sno6c4{
+  width: 390px;
+  height: 60px;
+  background-color: #a4a3a3;
+  border: 1px solid black ;
+  border: none;
+  margin-top: 15%;
+  margin-left: 25%;
+  font-family: "lulo";
+  font-size: 24px;
+  text-align: center;
+}
+
+.sno6c5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sno6c5{
+  margin: 10px 0;
+}
+
+/* section no 6 end */
+
+/* section no 7 css start */
+
+.sno7c1{
+  width: 100%;
+  height: 100%;
+}
+
+.sno7c2{
+  width: 100%;
+}
+
+.sno7c3{
+  width: 100%;
+  height: 100%;
+}
+/* foter start */
+
+.footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(162, 164, 163);
+    color: white;
+  }
+  .fot-p{
+    font-size: larger;
+    letter-spacing: 3px;
+    font-weight: 700;
+  }
+  .time-size{
+    margin-bottom: 0px;
+  }
+  /* foter end */
