@@ -1,0 +1,145 @@
+/* font famlys */
+@font-face {
+    font-family: 'anton';
+    src: url('./asserts/fonts/anton.regular.ttf') format('truetype');
+     
+        }
+
+
+@font-face{
+    font-family: "lulo";
+    src: url("./asserts/fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf") format('truetype');
+}
+
+@font-face{
+  font-family: "raleway medium";
+  src: url("./asserts/fonts/Raleway-Medium.ttf") format('truetype');
+}
+
+@font-face{
+  font-family: "raleway regular";
+  src: url("./asserts/fonts/Raleway-Regular.ttf") format('truetype');
+}
+/* font famlys end */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    margin-right: 16%;
+}
+
+a{
+    border: 1px solid black;
+    margin-top: 40px;
+    font-family: "lulo";
+    font-weight: 500;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+li{
+    margin-right: 95px;
+}
+
+.nav-link{
+    color: black;
+}
+
+#atag{
+    color: black;
+}
+
+.dropdown-toggle::after { 
+    content: none; 
+}
+
+
+/* secyion no 2 css start */
+
+
+.sno2hed{
+    font-family: "lulo";
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    -webkit-text-decoration-line: line-through;
+    text-decoration-line: line-through;
+}
+
+.hed2{
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(162, 164, 163);
+    color: black;
+}
+
+.sno2c1{
+    border: 1px solid black;
+    margin-top: 400px;
+}
+
+.c5img{
+    border: 1px solid black;
+    width: 220px;
+    height: 255px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.sno2c2{
+    font-family: "lulo";
+    font-size: 12px;
+    border: 1px solid black;
+    margin-top: 40px;
+    width: 135px;
+}
+
+.sidebar-atag{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    width: 170px;
+    margin-left: 100px;
+    font-family: "raleway medium";
+    font-size: 17px;
+
+}
+
+.sno2c3{
+    
+
+
+}
+
+/* foter start */
+
+.footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(162, 164, 163);
+    color: white;
+  }
+  .fot-p{
+    font-family: "lulo";
+    letter-spacing: 3px;
+    font-weight: 700;
+  }
+  .time-size{
+    margin-bottom: 0px;
+    font-family: "lulo";
+  }
+
+  .sno3main{
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  /* foter end */

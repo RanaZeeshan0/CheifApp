@@ -17,7 +17,7 @@ header{
     
 }
 nav{
-    margin-right: 14%;
+    margin-right: 16%;
 }
 
 a{
@@ -32,6 +32,9 @@ li{
     margin-right: 95px;
 }
 
+.dropdown-toggle::after { 
+  content: none; 
+}
 /* font famlys */
     @font-face {
         font-family: 'anton';
@@ -64,7 +67,9 @@ li{
   .s-tables{
     background-color: white;
     border: 2px solid black;
-    margin-top: 45%;
+    position: absolute;
+    top: 800px;
+    left: 221px;
   }
   .table{
     border: 2px solid black;
@@ -353,24 +358,41 @@ push         git push origin master       */
 }
 
 
+/* section no 8 css end */
 
+/* section no 9 start css  */
+
+
+.form-section div.input-btn-1{
+  background: grey;
+}
+
+
+
+/* section no 9 css end */
 
 /* foter start */
 
 .footer {
     
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:rgb(162, 164, 163);
-    color: white;
-  }
-  .fot-p{
-    font-size: larger;
-    letter-spacing: 3px;
-    font-weight: 700;
-  }
-  .time-size{
-    margin-bottom: 0px;
-  }
-  /* foter end */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(162, 164, 163);
+  color: white;
+}
+.fot-p{
+  font-family: "lulo";
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+.time-size{
+  margin-bottom: 0px;
+  font-family: "lulo";
+}
+
+.sno3main{
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+/* foter end */

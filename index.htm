@@ -7,13 +7,14 @@
   <title>Document</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="./asserts/fontawesome/css/all.min.css">
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark main">
+    <nav class="navbar navbar-expand-lg navbar-dark main fixed-top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,8 +25,15 @@
           <li class="nav-item active">
             <a class="nav-link home" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link story" href="#">our story</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              our story
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link tble" href="#">our Table</a>
@@ -285,27 +293,37 @@
 
   </div> 
    
-   
-   <!-- 
-   <div class="row">
-    <div class="col-12">
-     
-    </div>
-    <div class="row">
-      <div class="col-3">
-        <img class="sno8c3" src="./images/download (2).jpeg">
-        <div class="sno8c4">
-          <img class="sno8c5" src="./images/5-white-stars-png-7.png">
-          <p class="sno8c6">chef name</p>
-          <hr>
-          <p class="sno8c7">speciality italian</p>
-        </div>
-      </div>
+   <!-- section no 8 end -->
 
+
+   <!-- section no 9 start -->
+
+
+   <div class="container-fluid form-section">
+    <div class="row justify-content-center align-items-center bg-dark">
+            <div class="col-lg-4 py-5">
+                <h3 class="text-white mb-2">Subscribe...<span>for pffers,events & news happening everyday!!!</span></h3>
+                <div class="d-flex">
+                    <div class="inputbtn ml-5">
+                        <div class="input-group mr-3 mb-1">
+                            <input type="text" class="form-control" placeholder="City cusine" id="mail" name="email">
+        
+                        </div>
+                        <div class="input-group mr-3">
+                            <input type="text" class="form-control" placeholder="Dates " id="mail" name="email">
+        
+                        </div>
+                    </div>
+                    <div clas="input-btn-1" style="background: grey;">
+                        <button type="" class="btn"><i class="fa fa-caret-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
     </div>
-  </div>
 </div>
- -->
+
+<!-- setion no 9 end -->
+
 
 
 
@@ -321,55 +339,57 @@
 
 
 <!-- footer tart -->
-  <section> 
+<section> 
 
-    <div class="footer">
-      <div class=" container">
-        <div class=" row">
-          <div class=" col-4">
-            <p class="fot-p">ABOUT</p>
-            <p class="fot-p">COMPANY</P>
-          </div>
-          <div class=" col-4">
-            <p class="fot-p">HOST</P>
-              <p class="fot-p">BECOME A CHEF</P>
-                <p class="fot-p">PRIVATE EVENTS</P>
-                  <p class="fot-p">REFER A FRIENDS</p>
-          </div>
-          <div class=" col-4">
-            <p class="fot-p"></p>SUPPORT</P>
-            <p class="fot-p"></p>FAQS</P>
-            <p class="fot-p"></p>CONTACT US</P>
-            <p class="fot-p"></p>HOW IT WORKS?</P>
-            <p class="fot-p"></p>WE 'RE HERE ON</P>
-            <P class="time-size">MON-FRI 10AM-4PM CET</P>
-            <P class="time-size">SET 9AM-7PM CET</P>
-            <p class="fot-p"></p>EMIA:SUPPORT@WITHUS.COM</P>
-          </div>
+  <div class="footer">
+    <div class=" container">
+      <div class=" row">
+        <div class=" col-4">
+          <p class="fot-p">ABOUT</p>
+          <p class="fot-p">COMPANY</P>
         </div>
-        <div class="row">
-          <div class=" col-6">
-            <p class="fot-p"></p>MOST SEARCHED</P>
-          </div>
-          <div class=" col-6">
-            <p class="fot-p"></p>MOST POPULAR</P>
-          </div>
+        <div class=" col-4">
+          <p class="fot-p">HOST</P>
+            <p class="fot-p">BECOME A CHEF</P>
+              <p class="fot-p">PRIVATE EVENTS</P>
+                <p class="fot-p">REFER A FRIENDS</p>
         </div>
-
-        <div class="row">
-          <div class=" col-4">
-            <p class="fot-p"></p>PRIVACY POLICY</P>
-          </div>
-          <div class=" col-4">
-            <p class="fot-p"></p>TERMS & CONDITIONS</P>
-          </div>
+        <div class=" col-4">
+          <p class="fot-p">SUPPORT</p>
+          <p class="fot-p">FAQS</p>
+          <p class="fot-p">CONTACT US</p>
+          <p class="fot-p">HOW IT WORKS?</p>
+          <p class="fot-p">WE 'RE HERE ON</p>
+          <P class="time-size">MON-FRI 10AM-4PM CET</P>
+          <P class="time-size">SET 9AM-7PM CET</P>
+          <p class="fot-p">EMIA:SUPPORT@WITHUS.COM</P>
         </div>
-
+      </div>
+      <div class="row">
+        <div class=" col-6">
+          <p class="fot-p">MOST SEARCHED</P>
+        </div>
+        <div class=" col-6">
+          <p class="fot-p">MOST POPULAR</P>
+        </div>
       </div>
 
-  </section>
-  </div>
+      <div class="row">
+        <div class=" col-4">
+          <p class="fot-p">PRIVACY POLICY</P>
+        </div>
+        <div class=" col-4">
+          <p class="fot-p">TERMS & CONDITIONS</P>
+        </div>
+      </div>
 
+    </div>
+
+</section>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <script src="./asserts/fontawesome/js/all.min.js"></script>
 </body>
 </html>
